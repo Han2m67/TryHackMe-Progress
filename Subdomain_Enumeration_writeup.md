@@ -26,12 +26,18 @@ https://github.com/aboul3la/Sublist3r
 Also, take a look at the website: https://www.kali.org/tools/sublist3r/
 
 From my terminal on Kali, the commands are:
-sudo apt update
-sudo apt install git python3-pip    # install python3 to run the python script
-git clone https://github.com/aboul3la/Sublist3r.git    #clone the respiratory  
-cd Sublist3r    #Navigate into the cloned directory
-pip3 install -r requirements.txt    #Install the required Python packages
-python3 sublist3r.py -d acmeitsupport.thm    #run the command
+
+$sudo apt update
+
+$sudo apt install git python3-pip    # install python3 to run the python script
+
+$git clone https://github.com/aboul3la/Sublist3r.git    #clone the respiratory  
+
+$cd Sublist3r    #Navigate into the cloned directory
+
+$pip3 install -r requirements.txt    #Install the required Python packages
+
+$python3 sublist3r.py -d acmeitsupport.thm    #run the command
 
 
 4-Brute force DNS:
@@ -40,16 +46,18 @@ dnsrecon is a DNS enumeration script written in Python
 
 from my terminal:
 
-sudo apt update
-sudo apt install python3-pip
-pip3 install dnsrecon
+$sudo apt update
 
-sudo dnsrecon -t brt -d acmeitsupport.thm
+$sudo apt install python3-pip
+
+$pip3 install dnsrecon
+
+$sudo dnsrecon -t brt -d acmeitsupport.thm
 
 
-*dnsrecon: The tool for DNS reconnaissance.
-*-t brt: Specifies the type of scan. brt stands for Brute Force, meaning it will perform brute-force enumeration of subdomains.
-*-d acmeitsupport.thm: The target domain for DNS enumeration.
+dnsrecon: The tool for DNS reconnaissance.
+-t brt: Specifies the type of scan. brt stands for Brute Force, meaning it will perform brute-force enumeration of subdomains.
+-d acmeitsupport.thm: The target domain for DNS enumeration.
 
 5- Virtual Host:
 Some subdomains are not publicly listed in DNS, like the development versions and the admin portal. It may be privately stored in etc/host or in the developer machine.
