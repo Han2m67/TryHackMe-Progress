@@ -83,7 +83,8 @@ It shows me two subdomains(delta, yellow).
 -sublist3r
 
 -dnsrecon
-- ffuf
+
+-ffuf
 
 
 
@@ -92,3 +93,8 @@ It shows me two subdomains(delta, yellow).
 # My TryHackMe Achievement 
 I completed the "Subdomain Enumeration" room on TryHackMe.
 [View my achievement on TryHackMe](https://tryhackme.com/room/subdomainenumeration?sharerId=68693ff031483ca9ad11d240)
+
+
+
+<img width="1635" height="735" alt="subdomain" src="https://github.com/user-attachments/assets/30e8a627-c6d8-4614-9e60-005152d7b226" />
+
