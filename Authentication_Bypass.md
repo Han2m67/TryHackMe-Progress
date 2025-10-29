@@ -2,7 +2,7 @@
 
 ## 📝 Introduction
 
-In this room, **Authentication Bypass**, we aim to understand how to identify and exploit vulnerabilities that allow attackers to bypass authentication mechanisms. These vulnerabilities can lead to unauthorized access, data leaks, and full system compromise. 
+In this room, **Authentication Bypass**, we aim to understand how to identify and exploit vulnerabilities that allow attackers to bypass authentication mechanisms. These vulnerabilities can lead to unauthorised access, data leaks, and full system compromise. 
 Understanding these techniques is crucial for both offensive security testing and defensive hardening.
 
 ## ⚙️ Process
@@ -15,7 +15,7 @@ Create a text file that stores the outputs.
 from my terminal:
 
 ffuf -w /home/kali/names.txt \
-     -u http://10.10.165.187/customers/signup \
+     -u http://10.10.x.x/customers/signup \
      -X POST \
      -d "username=FUZZ&email=x&password=x&cpassword=x" \
      -H "Content-Type: application/x-www-form-urlencoded" \
