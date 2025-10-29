@@ -112,6 +112,10 @@ A logic flaw occurs when the normal logical flow of an application is bypassed, 
 
 ## 🛠️ Tools Used
 
+ffuf
+
+curl
+
 
 
 
