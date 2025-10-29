@@ -191,8 +191,8 @@ I completed the "Authentication Bypass" room on TryHackMe.
 
 
 
-<img width="1605" height="721" alt="Auth" src="https://github.com/user-attachments/assets/3ca49937-174c-4621-9100-596c1f82f112" />
 
+<img width="1445" height="706" alt="Auth2" src="https://github.com/user-attachments/assets/01728d10-09a7-4788-9677-83b7f9aa6d65" />
 
 
 
