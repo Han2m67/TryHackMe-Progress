@@ -11,7 +11,7 @@ Welcome! This repository contains my progress and detailed writeups for various 
 ### 3. [Introduction to Web Hacking](./Introduction_to_Web_Hacking.md)
 - 3.1 [Walking an Application](./Web_Hacking/Walking_an_Application.md)
 - 3.2 [Content Discovery](./Web_Hacking/Content_Discovery.md)
-- 3.3 [Subdomain Enumeration](./Web_Hacking/Subdomain_Enumeration_writeup.md)
+- 3.3 [Subdomain Enumeration](./Subdomain_Enumeration_writeup.md)
 - 3.4 [Authentication Bypass](./Web_Hacking/Authentication_Bypass.md)
 - 3.5 [IDOR](./Web_Hacking/IDOR.md)
 - 3.6 [File Inclusion](./Web_Hacking/File_Inclusion.md)
