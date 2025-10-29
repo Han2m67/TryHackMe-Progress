@@ -35,8 +35,9 @@ note: correct order for the flags is =>
 -mr match response
 -o output file
 
-![FFUF Scan Results](images/ffuf.png)
 
+
+![FFUF Scan Results](images/ffuf.png)
 
 
 
