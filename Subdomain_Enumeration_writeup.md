@@ -3,9 +3,13 @@ In this room, Subdomain Enumeration, we aim to enumerate all valid subdomains fo
 Subdomain enumeration has 5 methods:
 
 1-OSINT-Certificate Transparency (CT) logs.
+
 2-OSINT-Using advanced search methods on Google.
+
 3-OSINT-sublist3r
+
 4-Brute force DNS.
+
 5-Virtual Host.
 
 ## Process
