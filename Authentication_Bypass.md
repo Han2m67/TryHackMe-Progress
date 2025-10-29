@@ -20,7 +20,7 @@ ffuf -w /home/kali/names.txt \
      -d "username=FUZZ&email=x&password=x&cpassword=x" \
      -H "Content-Type: application/x-www-form-urlencoded" \
      -mr "username already exists" \
-    	-o - | grep "username=" | awk -F'=' '{print $2}' > usernames_only.txt
+    	-o valid.txt
 
 Note: correct order for the flags is =>  
 				
