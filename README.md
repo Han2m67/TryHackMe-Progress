@@ -8,8 +8,8 @@ Welcome! This repository contains my progress and detailed writeups for various 
 
 ### 1. [Introduction to Cyber Security](./Introduction_to_Cyber_Security.md)
 ### 2. [Introduction to Penetration Testing](./Introduction_to_Penetration_Testing.md)
-### 3. [Introduction to Web Hacking](./Introduction_to_Web_Hacking.md)
-- 3.1 [Walking an Application](./Walking_an_Application.md)
+### 3. [Introduction to Web Hacking]
+- 3.1 [Walking an Application]
 - 3.2 [Content Discovery](./Content_Discovery.md)
 - 3.3 [Subdomain Enumeration](./Subdomain_Enumeration_writeup.md)
 - 3.4 [Authentication Bypass](./Authentication_Bypass.md)
