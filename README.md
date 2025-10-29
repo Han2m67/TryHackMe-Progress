@@ -12,7 +12,7 @@ Welcome! This repository contains my progress and detailed writeups for various 
 - 3.1 [Walking an Application](./Walking_an_Application.md)
 - 3.2 [Content Discovery](./Content_Discovery.md)
 - 3.3 [Subdomain Enumeration](./Subdomain_Enumeration_writeup.md)
-- 3.4 [Authentication Bypass](./Authentication_Bypass.md)
+- 3.4 [Authentication Bypass](./Authentication Bypass.md)
 - 3.5 [IDOR](./IDOR.md)
 - 3.6 [File Inclusion](./File_Inclusion.md)
 - 3.7 [Introduction to SSRF](./SSRF.md)
