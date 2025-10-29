@@ -20,22 +20,30 @@ ffuf -w /home/kali/names.txt \
      -d "username=FUZZ&email=x&password=x&cpassword=x" \
      -H "Content-Type: application/x-www-form-urlencoded" \
      -mr "username already exists" \
-     -o valid.txt
+    	-o - | grep "username=" | awk -F'=' '{print $2}' > usernames_only.txt
 
 Note: correct order for the flags is =>  
 				
 					-w -> -u -> -X -> -d -> other flags
 
 -w word list
+
 -u target
+
 -X post HTTP method
+
 -d data
+
+-H Header
+
+-mr match response
+
+-o output file
+
+
 
 <img width="1072" height="620" alt="ffuf" src="https://github.com/user-attachments/assets/71de6c3d-75d8-4f0d-b441-0b9fbf7a0a0d" />
 
 
 
 
--H Header
--mr match response
--o output file
