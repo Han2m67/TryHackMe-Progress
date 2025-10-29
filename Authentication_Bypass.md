@@ -87,7 +87,7 @@ A logic flaw occurs when the normal logical flow of an application is bypassed, 
  2-   Use your new email address to trigger the vulnerability: (استخدم عنوان البريد الإلكتروني الخاص بك لتفعيل الثغرة)  
         You'll rerun Curl Request 2, but this time, you'll put your own email address (like yourname@customer.acmeitsupport.thm) in the email field.
 
-    What happens then? (ماذا يحدث بعد ذلك؟)  
+    What happens then?
       1-   The system creates a support ticket linked to your email address.
         The system generates a login link for the account Robert (the original account used in the challenge), and sends it to your email (which you specified).
 
@@ -105,8 +105,43 @@ A logic flaw occurs when the normal logical flow of an application is bypassed, 
 ### 3. **Cookie Tampering**
 
 
+What you can get from examining and editing the cookies :
 
 
+	1- Unauthenticated access
+	
+	2- Access to another user account
+	
+	3- elevated privileges
+
+	and more:
+	
+    4- Session Hijacking: Stealing or manipulating session cookies to take over an active user session.
+    5- Bypassing Security Controls: Modifying cookies to bypass authentication mechanisms or security checks.
+    6- Data Leakage: Accessing or extracting sensitive information stored in cookies, such as personal data or tokens.
+    7- Persistent Attacks: Creating or modifying cookies to maintain persistent access or backdoors.
+    8- Tracking and Profiling: Altering cookies to manipulate user tracking or profiling mechanisms.
+    9- Cross-Site Scripting (XSS) Exploits: Using manipulated cookies to facilitate or exploit XSS vulnerabilities.
+    10- Manipulating User Preferences or State: Changing cookies to influence user experience or application behaviour maliciously.
+
+**Hashing
+
+Seems to be a random string of characters
+	MD5,	sha-256,	sha-512,	sha1
+
+hash is irreversible; however, we can use services where they keep databases of billions of hashes and their original strings, like:
+
+		Crackstation =>https://crackstation.net/
+		Hashes.com
+		OnlineHashCrack
+
+
+**Encoding
+
+Seems to be a random string of characters
+
+For this task, I used 
+			CyberChef => https://cyberchef.io/
 
 
 
@@ -116,14 +151,20 @@ ffuf
 
 curl
 
+Cyberchef
 
+CrackStation
 
 
 
 ## 🎯 My TryHackMe Achievement
 
 
+I completed the "Authentication Bypass" room on TryHackMe.
 
+
+
+<img width="1605" height="721" alt="Auth" src="https://github.com/user-attachments/assets/3ca49937-174c-4621-9100-596c1f82f112" />
 
 
 
@@ -132,5 +173,5 @@ curl
 
 *Remember: Always perform testing ethically and with permission!*
 
-- ffuf
+
 
